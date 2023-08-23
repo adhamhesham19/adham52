@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+     
+}
+
+.rigistr{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+bottom: 0;
+
+}
+
+.contanor{
+    width: 100%;
+    margin: auto;
+    padding: 1px;
+}
+
+.contanor {
+    width: 100%;
+    margin: auto;
+    padding: 1px;
+  }
+  
+
+.word{padding: 20px;
+    top: 5px;
+background-color: rgb(24, 23, 23);
+height: 90px;
+border-radius: 5px;
+width: 85%;
+margin: auto;
+}
+
+h1{
+
+    justify-content:space-around;
+
+    color: white;
+text-align: center;
+font: 40px Arial, sans-serif;
+}
+
+
+.your{
+    position: relative;
+height: 15vw;
+width: 100%;
+background-image: url("copy.jpg");
+background-position:center ;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.banner{
+   width: 40%;
+
+min-width: 250px;
+ filter: invert(100%);
+/* border: url("BANNER11.png") 30 round; */
+
+
+}
+
+.social{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 2vw;
+
+}
+
+.social__link{
+display: flex;
+gap: 8px;
+align-items: center;
+
+}
+
+.social__link img {
+    width: 20px;
+    height: 20px;
+  }
+
+.image{
+    width: 45%;
+    height: 55%;
+margin: auto;
+position: relative;
+}
+
+.contanor2 {
+    margin: auto;
+    height: 470px;
+    width: 70%;
+    background-color: rgb(24, 23, 23);
+    border-radius: 7px;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+  }
+
+
+P{
+    /*position: absolute;*/
+color: lightblue;
+font-size: small;
+}
+
+.p1{
+    left: 900px;
+bottom: 29px;
+}
+
+.p2{
+    left: 649px;
+    bottom: 29px;
+}
+
+.p3{
+left: 400px;
+    bottom: 29px;
+    
+}
+
+.bbb{
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    
+
+    text-align: center;
+left: 900px;
+    bottom:500px;
+color: rgb(104, 104, 104);   
+
+}
+
+.p4{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+color: rgb(129, 117, 117);   
+font: 25px Arial, sans-serif;
+font-size: medium;
+bottom: 300px;
+}
+
+
+@media (max-width:576px) {
+.social__link{
+gap: 2px;
+}
+
+.social__link p{
+    font-size: 10px;
+}
+
+}
